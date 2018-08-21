@@ -107,7 +107,7 @@ void mergeSort(int *Vetor, int inicio, int fim){
       cout << " \n\n" ;
 
       mergeSort(Vetor,0,tamanho-1);
-      cout << "Ordenado:\n";
+      cout << "Vetor Ordenado:\n";
       imprime(Vetor,tamanho); 
       cout << " \n\n" ;
  

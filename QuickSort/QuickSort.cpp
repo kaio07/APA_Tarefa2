@@ -15,6 +15,7 @@ void imprime(int *V  , int tam){
   
  }  
 
+
 int particiona(int *V, int inicio, int final ){
     int esq, dir, pivo, aux;
     esq = inicio; // define esquerda como inicio
@@ -25,8 +26,8 @@ int particiona(int *V, int inicio, int final ){
         while(V[esq] <= pivo) // percorre ate encontrar elementos menores que o pivo
             esq++;
         while(V[dir] > pivo) // percorre direita  ate encontrar elementos menores que o pivo
-       
             dir--;
+        
         if(esq < dir){ // se direita for maior que esquerda troca os valores 
             aux = V[esq];
             V[esq] = V[dir];
