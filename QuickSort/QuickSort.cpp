@@ -25,7 +25,7 @@ int particiona(int *V, int inicio, int final ){
         while(V[esq] <= pivo) // percorre ate encontrar elementos menores que o pivo
             esq++;
         while(V[dir] > pivo) // percorre direita  ate encontrar elementos menores que o pivo
-           //   esq++;
+       
             dir--;
         if(esq < dir){ // se direita for maior que esquerda troca os valores 
             aux = V[esq];
